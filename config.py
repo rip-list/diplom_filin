@@ -1,6 +1,6 @@
 import os
 
-BOT_TOKEN = "8277438956:AAG8G1ALN3JhWzIPSxCPaYWec_tMukizTeY"
+BOT_TOKEN = ""
 ADMIN_PASSWORD = "supersecret123"  
 
 # Путь к базе
