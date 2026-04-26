@@ -1,0 +1,116 @@
+/* webapp/static/style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+    background: #f5f7fa;
+    color: #2c3e50;
+}
+
+h1 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #2c3e50;
+    border-left: 5px solid #3498db;
+    padding-left: 15px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+form input, form select, form button {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form select:focus {
+    border-color: #3498db;
+}
+
+form input[type="text"] {
+    flex: 2 1 200px;
+}
+
+form select {
+    flex: 1 1 120px;
+}
+
+form button {
+    background: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 0 0 auto;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #2980b9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background: #3498db;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+tr:nth-child(even) {
+    background: #f2f6fc;
+}
+
+tr:hover {
+    background: #e1eff9;
+}
+
+td a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+td a:hover {
+    background: #fde8e8;
+    text-decoration: none;
+}
